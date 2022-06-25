@@ -1,0 +1,33 @@
+.body {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 88px);
+}
+
+@media (max-width: 1400px) {
+    
+}
+
+@media (max-width: 800px) {
+    .app {
+        display: flex;
+        flex-direction: column;
+    }
+    .body {
+        height: 200vh;
+        margin: 0px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+    .app {
+        display: flex;
+        flex-direction: column;
+    }
+    .body {
+        height: 200vh;
+        margin: 0px;
+        flex-wrap: wrap;
+    }
+}

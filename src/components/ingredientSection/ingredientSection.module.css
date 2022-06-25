@@ -1,0 +1,22 @@
+.mainSection {
+    width: 100%;
+}
+
+.subSections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 800px) {
+    .subSections{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 600px) {
+}

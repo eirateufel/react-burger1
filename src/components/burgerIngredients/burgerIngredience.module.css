@@ -1,0 +1,147 @@
+.mainSection {
+    width: 640px;
+    height: calc(100%);
+    position: relative;
+}
+
+.middleSection {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.constructor-element {
+    width: 150px !important;
+}
+
+.currencyIcon svg {
+    height: 36px !important;
+    width: 36px !important;
+}
+
+.burgerMiddle {
+    display: flex;
+    align-items: center;
+}
+
+.orderButtonBlock {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.scrollSection {
+    overflow-y: scroll;
+    height: calc(100% - 80px - 100px - 64px - 40px - 52px - 80px - 16px - 16px);
+    margin: 16px 0;
+}
+
+.scrollSection::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrollSection::-webkit-scrollbar-track {
+    background-color: #2F2F37;
+}
+
+.scrollSection::-webkit-scrollbar-thumb {
+    background-color: #8585AD;
+}
+
+
+@media (max-width: 1400px) {
+    .mainSection span {
+        font-size: 10px !important;
+    }
+
+    .mainSection div {
+        padding: 10px !important;
+    }
+
+    .mainSection{
+        width: 50%;
+        margin: -10px;
+    }
+
+    .burgerTop {
+        width: 100%;
+        margin: 20px 0px 0px calc((100% - 570px)/2 + 24px + 7px);
+    }
+    
+    .burgerBottom {
+        width: 100%;
+        margin: 10px 0px 0px calc((100% - 570px)/2 + 24px + 7px);
+    }
+
+    .burgerMiddle {
+        width: 100%;
+        margin: -10px;
+    }  
+
+    .middleSection {
+        height: calc(100vh - 90px * 2 - 60px - 100px);
+        margin: -10px;
+        gap: 7px;
+    }
+
+    .scrollSection {
+        overflow-y: scroll;
+        height: calc(100% - 90px * 2 - 60px - 100px);
+        margin: 6px -10px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .burgerTop {
+        width: 800px;
+        margin: 20px 0px 0px calc((100% - 570px)/2 + 24px + 7px);
+    }
+    
+    .burgerBottom {
+        width: 570px;
+        margin: 10px 0px 0px calc((100% - 570px)/2 + 24px + 7px);
+    }
+
+    .burgerMiddle {
+        width: 570px;
+        margin: 0px;
+    }
+
+    .dragIcon {
+        margin: -10px;
+    }
+
+    .mainSection{
+        width: 80%;
+        margin: -10px;
+    }
+
+    .middleSection {
+        align-items: center;
+    }
+
+    .scrollSection {
+        overflow-y: hidden;
+        height: auto;
+        margin: 16px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .burgerTop {
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .burgerBottom {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .burgerMiddle {
+        margin: 0px;
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,0 +1,11 @@
+.name {
+    text-align: center;
+}
+
+.nutrientSubsection {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

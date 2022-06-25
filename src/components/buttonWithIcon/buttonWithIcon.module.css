@@ -1,0 +1,25 @@
+.buttonBody{
+    display: block;
+    background-color: transparent;
+    color: white;
+    height: 56px;
+    border-radius: 40px;
+    padding: 0px;
+    border: none;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 800px) {
+    .buttonName {
+        display: none;
+    }
+    .buttonBody{
+        height: 56px;
+        min-width: 50px;
+    }
+}

@@ -1,0 +1,39 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.orderNumber {
+    font-size: 140px !important;
+    text-shadow: 0px 0px 16px rgba(51, 51, 255, 0.25), 0px 0px 8px rgba(51, 51, 255, 0.25), 0px 4px 32px rgba(51, 51, 255, 0.5);
+}
+
+.picture {
+    width: 120px;
+    height: 120px;
+}
+
+
+@media (max-height: 1200px) {
+    .content {
+        margin: 16px 60px 60px;
+    }
+    .orderNumber {
+        font-size: 60px;
+    }
+    .pictureWrapper {
+        width: 80px;
+        height: 80px;
+        margin: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    
+}
+
+@media (max-width: 600px) {
+
+}
